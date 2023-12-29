@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Super Countdown Timer</title>
+</head>
+<body>
+
+<div class="wrapper">
+  <h1>Countdown Timer</h1>
+  
+  <label for="minutes"> <b> Select Minutes: </b> </label>
+  <select id="minutes">
+    <option value="1">1</option>
+    <option value="3">3</option>
+    <option value="5">5</option>
+    <option value="10">10</option>
+  </select>
+  <br>
+  <br>
+  <div id="timer">00:00:00</div>
+  <button onclick="startTimer()">Start</button>
+  <button onclick="stopTimer()">Stop</button>
+  <button onclick="resetTimer()">Reset</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
